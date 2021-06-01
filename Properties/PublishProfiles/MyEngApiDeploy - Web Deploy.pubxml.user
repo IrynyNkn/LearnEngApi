@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkeYOM6GsQ0qQ2f/mIj9D5wAAAAACAAAAAAAQZgAAAAEAACAAAACS4RFeBSdFEmX8in+QAi6ODAEQOCOtcawloZCRFOMvmQAAAAAOgAAAAAIAACAAAADzNm74qgs/MYzVm8VHZ9WGCejOVMnsNIM2eNwGmWTYA4AAAADiZpd5wbDuR+bfkjXI1hHQcYoYlAfRUQ/Hb6+tbpaC6VHe8HrlLjYZSuUQfWbDw/bQGS6I9/oUsZVRz1be1307FmZf9aHYR179aO75J1fBgLX+ZNntUVLUHgHgG6WIiiM4FXJAE8ySQ/VSptZpYipXbtoCXYeOhM90NsyRDXkawkAAAADkaR3xJIS+4lKeT01uEpci/JmodnZI/PZJcSMDoQjvUrzCFimvFJ1mbdrQhitToJ8INRaxwcoWz2LyvR0gKIot</EncryptedPassword>
+    <History>True|2021-06-01T10:48:36.4493142Z;False|2021-06-01T13:40:35.5009132+03:00;True|2021-06-01T13:37:51.5286766+03:00;True|2021-06-01T13:36:26.4504288+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DbConnection">
+      <Value>Data Source=tcp:todoapidbservertest.database.windows.net,1433%3bInitial Catalog=TgBotApi_db%3bUser Id=irene_admin%40todoapidbservertest%3bPassword=Azuredbpass1%2a</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="TgBotApi.EngDbContext">
+      <Value>Data Source=tcp:todoapidbservertest.database.windows.net,1433%3bInitial Catalog=TodoApi_db%3bUser Id=irene_admin%40todoapidbservertest%3bPassword=Azuredbpass1%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
